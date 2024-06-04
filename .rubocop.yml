@@ -10,20 +10,20 @@ Style/StringLiterals:
 Style/StringLiteralsInInterpolation:
  EnforcedStyle: double_quotes
 
-# Style/Documentation:
- # Enabled: false
+ Style/Documentation:
+  Enabled: false
 
-# Naming/MethodName:
- # EnforcedStyle: snake_case
+ Naming/MethodName:
+  EnforcedStyle: snake_case
 
-# Naming/ClassAndModuleCamelCase:
- # Enabled: true
+ Naming/ClassAndModuleCamelCase:
+  Enabled: true
 
-# Naming/FileName:
- # EnforcedStyle: snake_case
+ Naming/FileName:
+  EnforcedStyle: snake_case
 
-# Layout/TrailingEmptyLines:
- # EnforcedStyle: final_blank_line
+ Layout/TrailingEmptyLines:
+  EnforcedStyle: final_blank_line
 
-# Layout/SpaceAfterComma:
- # Enabled: true
+ Layout/SpaceAfterComma:
+  Enabled: true
