@@ -1,4 +1,8 @@
 # frozen_string_literal: true
+# rubocop:disable Metrics/AbcSize
+# rubocop:disable Metrics/CyclomaticComplexity
+# rubocop:disable Metrics/MethodLength
+# rubocop:disable Metrics/PerceivedComplexity
 
 require_relative "polydif_ych/version"
 
@@ -17,7 +21,7 @@ module PolydifYch
       else
         res = $1.to_s + $2.to_s + "*" + symb
         if $2.to_s.to_i / 2 != 1
-          res += ((($2.to_s).to_f) / 2).to_s
+          res += (($2.to_s.to_f) / 2).to_s
         end
         res
       end}/)
