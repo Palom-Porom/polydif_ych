@@ -10,17 +10,50 @@ Style/StringLiterals:
 Style/StringLiteralsInInterpolation:
  EnforcedStyle: double_quotes
 
- Style/Documentation:
-  Enabled: false
+Style/Documentation:
+ Enabled: false
 
- Naming/MethodName:
-  EnforcedStyle: snake_case
+Metrics/AbcSize:
+ Enabled: false
 
- Naming/ClassAndModuleCamelCase:
-  Enabled: true
+Metrics/CyclomaticComplexity:
+ Enabled: false
 
- Naming/FileName:
-  EnforcedStyle: snake_case
+Metrics/MethodLength:
+ Enabled: false
 
- Layout/SpaceAfterComma:
-  Enabled: true
+Metrics/PerceivedComplexity:
+ Enabled: false
+
+Style/PerlBackrefs:
+ Enabled: false
+
+Style/StringConcatenation:
+ Enabled: false
+
+Style/IfUnlessModifier:
+ Enabled: false
+
+Style/RedundantRegexpEscape:
+ Enabled: false
+
+Lint/UnreachableCode:
+ Enabled: false
+
+Naming/MethodName:
+ EnforcedStyle: snake_case
+
+Naming/ClassAndModuleCamelCase:
+ Enabled: true
+
+Naming/FileName:
+ EnforcedStyle: snake_case
+
+Layout/SpaceAfterComma:
+ Enabled: true
+
+Layout/EmptyLineAfterMagicComment:
+ Enabled: false
+
+Lint/AmbiguousRegexpLiteral:
+ Enabled: false
