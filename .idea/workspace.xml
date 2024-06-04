@@ -14,6 +14,7 @@
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/setup" beforeDir="false" afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/polydif_ych.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/polydif_ych.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/polydif_ych/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/polydif_ych/version.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
