@@ -1,29 +1,26 @@
 AllCops:
   TargetRubyVersion: 3.0
 
-  Exclude:
-    - 'polydif_ych.gemspec'
+ # Exclude:
+    # - 'polydif_ych.gemspec'
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
 
 Style/StringLiteralsInInterpolation:
-  EnforcedStyle: double_quotes
+ EnforcedStyle: double_quotes
 
-Style/Documentation:
+ Style/Documentation:
   Enabled: false
 
-Naming/MethodName:
+ Naming/MethodName:
   EnforcedStyle: snake_case
 
-Naming/ClassAndModuleCamelCase:
+ Naming/ClassAndModuleCamelCase:
   Enabled: true
 
-Naming/FileName:
+ Naming/FileName:
   EnforcedStyle: snake_case
 
-Layout/TrailingEmptyLines:
-  EnforcedStyle: final_blank_line
-
-Layout/SpaceAfterComma:
+ Layout/SpaceAfterComma:
   Enabled: true
