@@ -10,20 +10,20 @@ Style/StringLiterals:
 Style/StringLiteralsInInterpolation:
  EnforcedStyle: double_quotes
 
- Style/Documentation:
-  Enabled: false
+Style/Documentation:
+ Enabled: false
 
- Metrics/AbcSize:
-  Enabled: false
+Metrics/AbcSize:
+ Enabled: false
 
- Metrics/CyclomaticComplexity:
-  Enabled: false
+Metrics/CyclomaticComplexity:
+ Enabled: false
 
- Metrics/MethodLength:
-  Enabled: false
+Metrics/MethodLength:
+ Enabled: false
 
- Metrics/PerceivedComplexity:
-  Enabled: false
+Metrics/PerceivedComplexity:
+ Enabled: false
 
 Style/PerlBackrefs:
  Enabled: false
@@ -40,17 +40,17 @@ Style/RedundantRegexpEscape:
 Lint/UnreachableCode:
  Enabled: false
 
- Naming/MethodName:
-  EnforcedStyle: snake_case
+Naming/MethodName:
+ EnforcedStyle: snake_case
 
- Naming/ClassAndModuleCamelCase:
-  Enabled: true
+Naming/ClassAndModuleCamelCase:
+ Enabled: true
 
- Naming/FileName:
-  EnforcedStyle: snake_case
+Naming/FileName:
+ EnforcedStyle: snake_case
 
- Layout/SpaceAfterComma:
-  Enabled: true
+Layout/SpaceAfterComma:
+ Enabled: true
 
- Layout/EmptyLineAfterMagicComment:
-  Enabled:false
+Layout/EmptyLineAfterMagicComment:
+ Enabled: false
