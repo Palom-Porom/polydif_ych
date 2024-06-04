@@ -1,6 +1,9 @@
 AllCops:
   TargetRubyVersion: 3.0
 
+  Exclude:
+    - 'polydif_ych.gemspec'
+
 Style/StringLiterals:
   EnforcedStyle: double_quotes
 
@@ -24,5 +27,3 @@ Layout/TrailingEmptyLines:
 
 Layout/SpaceAfterComma:
   Enabled: true
-
-
