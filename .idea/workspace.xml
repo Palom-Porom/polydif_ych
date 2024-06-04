@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2c59291c-c34d-42ff-9a4f-83f9086fae86" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.rubocop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.rubocop.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/polydif_ych.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/polydif_ych.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/polydif_ych/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/polydif_ych/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polydif_ych.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/polydif_ych.gemspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_polydif_ych.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_polydif_ych.rb" afterDir="false" />
     </list>
@@ -34,7 +30,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Rubycop-Fix",
+    "git-widget-placeholder": "Api-and-Tests",
     "last_opened_file_path": "D:/MehMat/Codes/Ruby/SapnuPuas/sapnu_puas",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
