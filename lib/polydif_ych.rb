@@ -2,12 +2,13 @@
 
 require_relative "polydif_ych/version"
 
+# Main Linrary
 module PolydifYch
   def polydif(polynomial, symb)
     # if only multiplier
-    polynomial.gsub(/([+\-])?(\d+)/, "")
+    polynomial.gsub(/([+-])?(\d+)/, "")
     # if other variable
-    polynomial.gsub(/([+\-])?(\d+).(\^\d+)?/, "")
+    polynomial.gsub(/([+-])?(\d+).(\^\d+)?/, "")
     # if multiplier = 1
     polynomial.gsub(/([+-])#{symb}\^(\d+)/, /#{
       # puts $2.to_s
@@ -15,8 +16,8 @@ module PolydifYch
         $1.to_s + "1"
       else
         res = $1.to_s + $2.to_s + "*" + symb
-        if ($2.to_s).to_i / 2 != 1
-          res = res + ((($2.to_s).to_f) / 2).to_s
+        if $2.to_s.to_i / 2 != 1
+          res += ((($2.to_s).to_f) / 2).to_s
         end
         res
       end}/)
@@ -25,9 +26,9 @@ module PolydifYch
       if $1.to_i == 1
         "1"
       else
-        res = ($1.to_i).to_s + "*" + symb
+        res = $1.to_i.to_s + "*" + symb
         if $1.to_s / 2 != 1
-          res = res + $1.to_s / 2
+          res += $1.to_s / 2
         end
         res
       end}/)
