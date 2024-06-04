@@ -6,3 +6,5 @@
 /pkg/
 /spec/reports/
 /tmp/
+# Ignore IDE specific directories.
+.idea/
