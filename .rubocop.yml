@@ -51,3 +51,6 @@ Lint/UnreachableCode:
 
  Layout/SpaceAfterComma:
   Enabled: true
+
+ Layout/EmptyLineAfterMagicComment:
+  Enabled:false
