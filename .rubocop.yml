@@ -22,8 +22,6 @@ Style/StringLiteralsInInterpolation:
  Naming/FileName:
   EnforcedStyle: snake_case
 
- Layout/TrailingEmptyLines:
-  EnforcedStyle: final_blank_line
 
  Layout/SpaceAfterComma:
   Enabled: true
