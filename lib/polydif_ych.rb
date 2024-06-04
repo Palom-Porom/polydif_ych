@@ -9,8 +9,22 @@ module PolydifYch
     # if other variable
     polynomial.gsub(/([+\-])?(\d+).(\^\d+)?/, "")
     # if multiplier = 1
-    polynomial.gsub(/([+\-])?#{symb}\^(\d+)/, /#{$1.to_i == 1 ? $0 + 1 : $0 + ($1.to_i).to_s + "*" + symb + ($1 / 2 == 1 ? "" : "^" + $1/2))}/)
+    polynomial.gsub(/([+\-])?#{symb}\^(\d+)/, /#{
+      if $2.to_i == 1
+        $1 + 1
+      else
+        res = $1 + ($2.to_i).to_s + "*" + symb
+        if $2 / 2 != 1
+          res = res + $2 / 2
+        end
+        res
+      end}/)
     # if multiplier != 1
-    polynomial.gsub(/([+\-])?(\d+)\*#{symb}\^(\d+)/, /#{$2.to_i == 1 ? $0 + $1 : $0 + ($1.to_i * $2.to_i).to_s + "*" + symb + ($2 / 2 == 1 ? "" : "^" + $2/2))}/)
+    polynomial.gsub(/([+\-])?(\d+)\*#{symb}\^(\d+)/, /#{
+      if $3.to_i == 1
+        $1 + $2
+      else
+        $1 + ($2.to_i * $3.to_i).to_s + "*" + symb + ($3.to_i - 1 == 1 ? "" : "^" + $3 / 2)
+      end}/)
   end
 end
