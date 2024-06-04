@@ -9,11 +9,11 @@
       <change beforePath="$PROJECT_DIR$/.rubocop.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.rubocop.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/polydif_ych.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/polydif_ych.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/polydif_ych/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/polydif_ych/version.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polydif_ych.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/polydif_ych.gemspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_polydif_ych.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_polydif_ych.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
