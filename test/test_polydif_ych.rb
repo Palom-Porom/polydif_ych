@@ -13,10 +13,12 @@ class TestPolydifYch < Minitest::Test
   end
 
   def test_example
-    assert_equal("2*x+4", PolydifYch.polydif("x^2+4*x+3+y", "x"), "Example test didn't pass")
+    res = PolydifYch.polydif("x^2+4*x+3+y", "x")
+    assert_equal"2*x+4", res
   end
 
   def test_simplest
-    assert_equal("2*x", PolydifYch.polydif("x^2", "x"), "Example test didn't pass")
+    res = PolydifYch.polydif "x^2", "x"
+    assert_equal"2*x", res
   end
 end
