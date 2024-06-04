@@ -7,7 +7,6 @@
     <list default="true" id="2c59291c-c34d-42ff-9a4f-83f9086fae86" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/polydif_ych.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/polydif_ych.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sig/polydif_ych.rbs" beforeDir="false" afterPath="$PROJECT_DIR$/sig/polydif_ych.rbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
