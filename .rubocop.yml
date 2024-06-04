@@ -54,3 +54,6 @@ Layout/SpaceAfterComma:
 
 Layout/EmptyLineAfterMagicComment:
  Enabled: false
+
+Lint/AmbiguousRegexpLiteral:
+ Enabled: false
