@@ -1,17 +1,17 @@
 AllCops:
   TargetRubyVersion: 3.0
 
-  Exclude:
-    - 'polydif_ych.gemspec'
+ # Exclude:
+    # - 'polydif_ych.gemspec'
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
 
 Style/StringLiteralsInInterpolation:
-  EnforcedStyle: double_quotes
+ EnforcedStyle: double_quotes
 
-Style/Documentation:
-  Enabled: false
+# Style/Documentation:
+ # Enabled: false
 
 # Naming/MethodName:
  # EnforcedStyle: snake_case

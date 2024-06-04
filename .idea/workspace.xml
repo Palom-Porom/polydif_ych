@@ -17,6 +17,7 @@
       <change beforePath="$PROJECT_DIR$/bin/setup" beforeDir="false" afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/polydif_ych.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/polydif_ych.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/polydif_ych/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/polydif_ych/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polydif_ych.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/polydif_ych.gemspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_polydif_ych.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_polydif_ych.rb" afterDir="false" />
     </list>
@@ -39,7 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Rubycop-Fix",
     "last_opened_file_path": "D:/MehMat/Codes/Ruby/SapnuPuas/sapnu_puas",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
